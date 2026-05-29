@@ -1,35 +1,35 @@
 [
   {
-    "node": "8.223.63.150:443",
-    "ip": "8.223.63.150",
-    "port": 443,
-    "country": "HK",
-    "colo": "",
-    "latency_ms": 16.34,
-    "speed_mbps": 9.14,
-    "score": 53.19,
-    "stability": 76.96
-  },
-  {
-    "node": "18.138.34.221:443",
-    "ip": "18.138.34.221",
-    "port": 443,
-    "country": "SG",
-    "colo": "SIN",
-    "latency_ms": 54.73,
-    "speed_mbps": 12.41,
-    "score": 70.88,
-    "stability": 33.3
-  },
-  {
-    "node": "18.183.224.152:443",
-    "ip": "18.183.224.152",
+    "node": "8.209.231.3:443",
+    "ip": "8.209.231.3",
     "port": 443,
     "country": "JP",
     "colo": "NRT",
-    "latency_ms": 72.96,
-    "speed_mbps": 5.85,
-    "score": 108.5,
-    "stability": 24.44
+    "latency_ms": 71.14,
+    "speed_mbps": 32.93,
+    "score": 101.14,
+    "stability": 500
+  },
+  {
+    "node": "52.196.133.194:443",
+    "ip": "52.196.133.194",
+    "port": 443,
+    "country": "JP",
+    "colo": "NRT",
+    "latency_ms": 75.92,
+    "speed_mbps": 31.89,
+    "score": 105.92,
+    "stability": 500
+  },
+  {
+    "node": "8.219.154.217:8443",
+    "ip": "8.219.154.217",
+    "port": 8443,
+    "country": "SG",
+    "colo": "SIN",
+    "latency_ms": 54.31,
+    "speed_mbps": 3.64,
+    "score": 225.11,
+    "stability": 500
   }
 ]
