@@ -1,58 +1,108 @@
 [
   {
-    "node": "23.133.52.10:2053",
-    "ip": "23.133.52.10",
-    "port": 2053,
-    "country": "HK",
-    "colo": "HKG",
-    "latency_ms": 18.67,
-    "speed_mbps": 653.27,
-    "score": 13.11,
-    "stability": 500
-  },
-  {
     "node": "34.92.79.184:8443",
     "ip": "34.92.79.184",
     "port": 8443,
     "country": "HK",
     "colo": "HKG",
-    "latency_ms": 22.3,
-    "speed_mbps": 505.0,
-    "score": 19.71,
-    "stability": 500
+    "latency_ms": 18.48,
+    "speed_mbps": 659.01,
+    "score": 12.82,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 12.82,
+      "latency_score": 18.48,
+      "speed_penalty": -35.66,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "159.138.138.87:443",
+    "ip": "159.138.138.87",
+    "port": 443,
+    "country": "HK",
+    "colo": "HKG",
+    "latency_ms": 23.94,
+    "speed_mbps": 616.92,
+    "score": 19.04,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 19.04,
+      "latency_score": 23.94,
+      "speed_penalty": -34.9,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "23.133.52.10:2053",
+    "ip": "23.133.52.10",
+    "port": 2053,
+    "country": "HK",
+    "colo": "HKG",
+    "latency_ms": 29.83,
+    "speed_mbps": 829.88,
+    "score": 21.51,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 21.51,
+      "latency_score": 29.83,
+      "speed_penalty": -38.32,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "8.218.22.14:443",
+    "ip": "8.218.22.14",
+    "port": 443,
+    "country": "HK",
+    "colo": "HKG",
+    "latency_ms": 20.63,
+    "speed_mbps": 61.08,
+    "score": 42.42,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 42.42,
+      "latency_score": 20.63,
+      "speed_penalty": -8.21,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "123.202.201.128:8443",
     "ip": "123.202.201.128",
     "port": 8443,
     "country": "HK",
-    "colo": "HKG",
-    "latency_ms": 30.72,
-    "speed_mbps": 92.12,
-    "score": 47.77,
-    "stability": 500
-  },
-  {
-    "node": "45.135.119.123:443",
-    "ip": "45.135.119.123",
-    "port": 443,
-    "country": "HK",
-    "colo": "HKG",
-    "latency_ms": 49.79,
-    "speed_mbps": 413.47,
-    "score": 49.51,
-    "stability": 500
-  },
-  {
-    "node": "47.76.218.163:443",
-    "ip": "47.76.218.163",
-    "port": 443,
-    "country": "HK",
-    "colo": "HKG",
-    "latency_ms": 22.61,
-    "speed_mbps": 29.48,
-    "score": 52.87,
-    "stability": 500
+    "colo": "",
+    "latency_ms": 30.9,
+    "speed_mbps": 71.6,
+    "score": 50.86,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 50.86,
+      "latency_score": 30.9,
+      "speed_penalty": -10.04,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "43.250.175.174:8443",
@@ -60,10 +110,62 @@
     "port": 8443,
     "country": "HK",
     "colo": "HKG",
-    "latency_ms": 21.71,
-    "speed_mbps": 26.82,
-    "score": 53.3,
-    "stability": 500
+    "latency_ms": 21.54,
+    "speed_mbps": 18.65,
+    "score": 57.22,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 57.22,
+      "latency_score": 21.54,
+      "speed_penalty": 5.68,
+      "speed_tier": "below_30mbps",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "54.150.9.209:443",
+    "ip": "54.150.9.209",
+    "port": 443,
+    "country": "JP",
+    "colo": "NRT",
+    "latency_ms": 61.96,
+    "speed_mbps": 589.86,
+    "score": 57.58,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 57.58,
+      "latency_score": 61.96,
+      "speed_penalty": -34.38,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "47.76.218.163:443",
+    "ip": "47.76.218.163",
+    "port": 443,
+    "country": "HK",
+    "colo": "HKG",
+    "latency_ms": 22.98,
+    "speed_mbps": 16.46,
+    "score": 59.75,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 59.75,
+      "latency_score": 22.98,
+      "speed_penalty": 6.77,
+      "speed_tier": "below_30mbps",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "220.135.92.105:2087",
@@ -71,142 +173,41 @@
     "port": 2087,
     "country": "TW",
     "colo": "TPE",
-    "latency_ms": 41.05,
-    "speed_mbps": 133.81,
-    "score": 53.79,
-    "stability": 500
+    "latency_ms": 42.08,
+    "speed_mbps": 65.66,
+    "score": 63.04,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 63.04,
+      "latency_score": 42.08,
+      "speed_penalty": -9.04,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "103.74.192.178:443",
-    "ip": "103.74.192.178",
-    "port": 443,
-    "country": "HK",
-    "colo": "",
-    "latency_ms": 42.54,
-    "speed_mbps": 51.52,
-    "score": 66.3,
-    "stability": 500
-  },
-  {
-    "node": "35.194.109.94:443",
-    "ip": "35.194.109.94",
-    "port": 443,
-    "country": "JP",
-    "colo": "",
-    "latency_ms": 66.32,
-    "speed_mbps": 351.67,
-    "score": 67.91,
-    "stability": 500
-  },
-  {
-    "node": "124.244.50.35:443",
-    "ip": "124.244.50.35",
-    "port": 443,
-    "country": "HK",
-    "colo": "",
-    "latency_ms": 49.42,
-    "speed_mbps": 77.01,
-    "score": 68.54,
-    "stability": 500
-  },
-  {
-    "node": "154.19.186.85:443",
-    "ip": "154.19.186.85",
+    "node": "13.193.152.12:443",
+    "ip": "13.193.152.12",
     "port": 443,
     "country": "JP",
     "colo": "NRT",
-    "latency_ms": 70.56,
-    "speed_mbps": 476.39,
-    "score": 68.65,
-    "stability": 500
-  },
-  {
-    "node": "154.83.91.206:443",
-    "ip": "154.83.91.206",
-    "port": 443,
-    "country": "JP",
-    "colo": "",
-    "latency_ms": 74.86,
-    "speed_mbps": 608.26,
-    "score": 70.12,
-    "stability": 500
-  },
-  {
-    "node": "34.104.208.126:443",
-    "ip": "34.104.208.126",
-    "port": 443,
-    "country": "JP",
-    "colo": "NRT",
-    "latency_ms": 67.71,
-    "speed_mbps": 274.68,
-    "score": 72.15,
-    "stability": 500
-  },
-  {
-    "node": "18.178.41.33:443",
-    "ip": "18.178.41.33",
-    "port": 443,
-    "country": "JP",
-    "colo": "NRT",
-    "latency_ms": 74.76,
-    "speed_mbps": 498.08,
-    "score": 72.33,
-    "stability": 500
-  },
-  {
-    "node": "31.57.172.172:443",
-    "ip": "31.57.172.172",
-    "port": 443,
-    "country": "JP",
-    "colo": "NRT",
-    "latency_ms": 78.1,
-    "speed_mbps": 626.96,
-    "score": 73.02,
-    "stability": 500
-  },
-  {
-    "node": "54.250.124.53:443",
-    "ip": "54.250.124.53",
-    "port": 443,
-    "country": "JP",
-    "colo": "NRT",
-    "latency_ms": 76.13,
-    "speed_mbps": 417.93,
-    "score": 75.73,
-    "stability": 500
-  },
-  {
-    "node": "45.76.158.201:8443",
-    "ip": "45.76.158.201",
-    "port": 8443,
-    "country": "SG",
-    "colo": "SIN",
-    "latency_ms": 78.11,
-    "speed_mbps": 419.35,
-    "score": 77.67,
-    "stability": 500
-  },
-  {
-    "node": "35.75.183.41:443",
-    "ip": "35.75.183.41",
-    "port": 443,
-    "country": "JP",
-    "colo": "NRT",
-    "latency_ms": 68.49,
-    "speed_mbps": 173.84,
-    "score": 78.21,
-    "stability": 500
-  },
-  {
-    "node": "3.112.34.29:443",
-    "ip": "3.112.34.29",
-    "port": 443,
-    "country": "JP",
-    "colo": "",
-    "latency_ms": 69.7,
-    "speed_mbps": 180.43,
-    "score": 79.0,
-    "stability": 500
+    "latency_ms": 72.5,
+    "speed_mbps": 551.38,
+    "score": 68.9,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 68.9,
+      "latency_score": 72.5,
+      "speed_penalty": -33.6,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "54.238.236.208:443",
@@ -214,32 +215,104 @@
     "port": 443,
     "country": "JP",
     "colo": "NRT",
-    "latency_ms": 72.58,
-    "speed_mbps": 210.44,
-    "score": 80.1,
-    "stability": 500
+    "latency_ms": 73.38,
+    "speed_mbps": 565.88,
+    "score": 69.48,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 69.48,
+      "latency_score": 73.38,
+      "speed_penalty": -33.9,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "54.248.55.203:443",
-    "ip": "54.248.55.203",
+    "node": "35.194.109.94:443",
+    "ip": "35.194.109.94",
+    "port": 443,
+    "country": "JP",
+    "colo": "",
+    "latency_ms": 69.7,
+    "speed_mbps": 406.32,
+    "score": 69.62,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 69.62,
+      "latency_score": 69.7,
+      "speed_penalty": -30.08,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "131.143.215.142:443",
+    "ip": "131.143.215.142",
     "port": 443,
     "country": "JP",
     "colo": "NRT",
-    "latency_ms": 78.99,
-    "speed_mbps": 289.62,
-    "score": 82.82,
-    "stability": 500
+    "latency_ms": 70.7,
+    "speed_mbps": 385.8,
+    "score": 71.22,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 71.22,
+      "latency_score": 70.7,
+      "speed_penalty": -29.48,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "18.136.144.105:443",
-    "ip": "18.136.144.105",
+    "node": "114.32.9.249:443",
+    "ip": "114.32.9.249",
     "port": 443,
-    "country": "SG",
-    "colo": "SIN",
-    "latency_ms": 62.74,
-    "speed_mbps": 63.06,
-    "score": 84.17,
-    "stability": 500
+    "country": "TW",
+    "colo": "TPE",
+    "latency_ms": 46.88,
+    "speed_mbps": 40.81,
+    "score": 73.33,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 73.33,
+      "latency_score": 46.88,
+      "speed_penalty": -3.55,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "103.51.145.18:8443",
+    "ip": "103.51.145.18",
+    "port": 8443,
+    "country": "HK",
+    "colo": "",
+    "latency_ms": 48.71,
+    "speed_mbps": 45.13,
+    "score": 74.0,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 74.0,
+      "latency_score": 48.71,
+      "speed_penalty": -4.71,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "47.83.14.42:8443",
@@ -247,10 +320,146 @@
     "port": 8443,
     "country": "HK",
     "colo": "TPE",
-    "latency_ms": 47.18,
-    "speed_mbps": 12.41,
-    "score": 84.95,
-    "stability": 500
+    "latency_ms": 37.74,
+    "speed_mbps": 12.71,
+    "score": 74.61,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 74.61,
+      "latency_score": 37.74,
+      "speed_penalty": 6.87,
+      "speed_tier": "below_15mbps",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "34.104.208.126:443",
+    "ip": "34.104.208.126",
+    "port": 443,
+    "country": "JP",
+    "colo": "NRT",
+    "latency_ms": 67.85,
+    "speed_mbps": 220.05,
+    "score": 74.85,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 74.85,
+      "latency_score": 67.85,
+      "speed_penalty": -23.0,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "140.235.37.85:443",
+    "ip": "140.235.37.85",
+    "port": 443,
+    "country": "JP",
+    "colo": "NRT",
+    "latency_ms": 74.99,
+    "speed_mbps": 390.63,
+    "score": 75.37,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 75.37,
+      "latency_score": 74.99,
+      "speed_penalty": -29.62,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "147.79.20.197:443",
+    "ip": "147.79.20.197",
+    "port": 443,
+    "country": "JP",
+    "colo": "",
+    "latency_ms": 75.28,
+    "speed_mbps": 329.15,
+    "score": 77.64,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 77.64,
+      "latency_score": 75.28,
+      "speed_penalty": -27.65,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "35.75.183.41:443",
+    "ip": "35.75.183.41",
+    "port": 443,
+    "country": "JP",
+    "colo": "NRT",
+    "latency_ms": 69.84,
+    "speed_mbps": 178.79,
+    "score": 79.24,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 79.24,
+      "latency_score": 69.84,
+      "speed_penalty": -20.6,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "147.79.20.239:443",
+    "ip": "147.79.20.239",
+    "port": 443,
+    "country": "JP",
+    "colo": "NRT",
+    "latency_ms": 76.83,
+    "speed_mbps": 315.5,
+    "score": 79.67,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 79.67,
+      "latency_score": 76.83,
+      "speed_penalty": -27.16,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "43.165.178.147:8443",
+    "ip": "43.165.178.147",
+    "port": 8443,
+    "country": "JP",
+    "colo": "NRT",
+    "latency_ms": 73.92,
+    "speed_mbps": 225.4,
+    "score": 80.64,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 80.64,
+      "latency_score": 73.92,
+      "speed_penalty": -23.28,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "13.250.31.132:443",
@@ -258,54 +467,41 @@
     "port": 443,
     "country": "SG",
     "colo": "SIN",
-    "latency_ms": 61.7,
-    "speed_mbps": 47.89,
-    "score": 86.3,
-    "stability": 500
+    "latency_ms": 56.79,
+    "speed_mbps": 48.86,
+    "score": 81.16,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 81.16,
+      "latency_score": 56.79,
+      "speed_penalty": -5.63,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "45.76.176.213:8443",
-    "ip": "45.76.176.213",
-    "port": 8443,
-    "country": "SG",
-    "colo": "SIN",
-    "latency_ms": 78.29,
-    "speed_mbps": 194.41,
-    "score": 86.72,
-    "stability": 500
-  },
-  {
-    "node": "207.148.125.245:8443",
-    "ip": "207.148.125.245",
-    "port": 8443,
-    "country": "SG",
-    "colo": "SIN",
-    "latency_ms": 80.68,
-    "speed_mbps": 237.3,
-    "score": 86.81,
-    "stability": 500
-  },
-  {
-    "node": "122.10.119.252:443",
-    "ip": "122.10.119.252",
-    "port": 443,
-    "country": "HK",
-    "colo": "HKG",
-    "latency_ms": 51.85,
-    "speed_mbps": 19.42,
-    "score": 87.14,
-    "stability": 500
-  },
-  {
-    "node": "23.249.17.25:443",
-    "ip": "23.249.17.25",
+    "node": "14.137.235.132:443",
+    "ip": "14.137.235.132",
     "port": 443,
     "country": "JP",
-    "colo": "",
-    "latency_ms": 75.79,
-    "speed_mbps": 141.76,
-    "score": 87.86,
-    "stability": 500
+    "colo": "NRT",
+    "latency_ms": 70.07,
+    "speed_mbps": 154.16,
+    "score": 81.18,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 81.18,
+      "latency_score": 70.07,
+      "speed_penalty": -18.89,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "149.28.159.222:443",
@@ -313,10 +509,125 @@
     "port": 443,
     "country": "SG",
     "colo": "SIN",
-    "latency_ms": 80.51,
-    "speed_mbps": 193.28,
-    "score": 89.01,
-    "stability": 500
+    "latency_ms": 78.15,
+    "speed_mbps": 261.51,
+    "score": 83.16,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 83.16,
+      "latency_score": 78.15,
+      "speed_penalty": -24.99,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "23.249.17.25:443",
+    "ip": "23.249.17.25",
+    "port": 443,
+    "country": "JP",
+    "colo": "",
+    "latency_ms": 72.9,
+    "speed_mbps": 157.03,
+    "score": 83.79,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 83.79,
+      "latency_score": 72.9,
+      "speed_penalty": -19.1,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "54.250.124.53:443",
+    "ip": "54.250.124.53",
+    "port": 443,
+    "country": "JP",
+    "colo": "NRT",
+    "latency_ms": 68.07,
+    "speed_mbps": 98.27,
+    "score": 84.38,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 84.38,
+      "latency_score": 68.07,
+      "speed_penalty": -13.69,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "54.248.55.203:443",
+    "ip": "54.248.55.203",
+    "port": 443,
+    "country": "JP",
+    "colo": "NRT",
+    "latency_ms": 76.31,
+    "speed_mbps": 182.07,
+    "score": 85.5,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 85.5,
+      "latency_score": 76.31,
+      "speed_penalty": -20.81,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "45.76.158.201:8443",
+    "ip": "45.76.158.201",
+    "port": 8443,
+    "country": "SG",
+    "colo": "SIN",
+    "latency_ms": 84.66,
+    "speed_mbps": 360.57,
+    "score": 85.96,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 85.96,
+      "latency_score": 84.66,
+      "speed_penalty": -28.7,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "45.76.176.213:8443",
+    "ip": "45.76.176.213",
+    "port": 8443,
+    "country": "SG",
+    "colo": "SIN",
+    "latency_ms": 78.4,
+    "speed_mbps": 188.74,
+    "score": 87.17,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 87.17,
+      "latency_score": 78.4,
+      "speed_penalty": -21.23,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "45.77.254.160:8443",
@@ -324,65 +635,62 @@
     "port": 8443,
     "country": "SG",
     "colo": "SIN",
-    "latency_ms": 91.33,
-    "speed_mbps": 373.25,
-    "score": 92.23,
-    "stability": 500
+    "latency_ms": 79.41,
+    "speed_mbps": 203.91,
+    "score": 87.29,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 87.29,
+      "latency_score": 79.41,
+      "speed_penalty": -22.12,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "150.109.11.223:443",
+    "ip": "150.109.11.223",
+    "port": 443,
+    "country": "SG",
+    "colo": "",
+    "latency_ms": 73.79,
+    "speed_mbps": 121.61,
+    "score": 87.63,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 87.63,
+      "latency_score": 73.79,
+      "speed_penalty": -16.15,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "5.226.49.101:443",
     "ip": "5.226.49.101",
     "port": 443,
     "country": "JP",
-    "colo": "",
-    "latency_ms": 78.21,
-    "speed_mbps": 101.22,
-    "score": 94.18,
-    "stability": 500
-  },
-  {
-    "node": "43.160.246.223:8443",
-    "ip": "43.160.246.223",
-    "port": 8443,
-    "country": "SG",
-    "colo": "SIN",
-    "latency_ms": 82.05,
-    "speed_mbps": 135.98,
-    "score": 94.61,
-    "stability": 500
-  },
-  {
-    "node": "43.153.155.143:2053",
-    "ip": "43.153.155.143",
-    "port": 2053,
-    "country": "JP",
     "colo": "NRT",
-    "latency_ms": 71.75,
-    "speed_mbps": 33.73,
-    "score": 100.4,
-    "stability": 500
-  },
-  {
-    "node": "168.107.0.116:8443",
-    "ip": "168.107.0.116",
-    "port": 8443,
-    "country": "KR",
-    "colo": "ICN",
-    "latency_ms": 102.0,
-    "speed_mbps": 459.55,
-    "score": 100.5,
-    "stability": 500
-  },
-  {
-    "node": "43.153.155.143:8443",
-    "ip": "43.153.155.143",
-    "port": 8443,
-    "country": "JP",
-    "colo": "NRT",
-    "latency_ms": 72.97,
-    "speed_mbps": 34.55,
-    "score": 101.34,
-    "stability": 500
+    "latency_ms": 75.39,
+    "speed_mbps": 67.96,
+    "score": 95.95,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 95.95,
+      "latency_score": 75.39,
+      "speed_penalty": -9.44,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "43.133.182.111:443",
@@ -390,21 +698,41 @@
     "port": 443,
     "country": "JP",
     "colo": "NRT",
-    "latency_ms": 76.71,
-    "speed_mbps": 31.27,
-    "score": 106.23,
-    "stability": 500
+    "latency_ms": 69.88,
+    "speed_mbps": 31.13,
+    "score": 99.45,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 99.45,
+      "latency_score": 69.88,
+      "speed_penalty": -0.43,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "43.153.166.110:8443",
-    "ip": "43.153.166.110",
+    "node": "43.153.155.143:8443",
+    "ip": "43.153.155.143",
     "port": 8443,
     "country": "JP",
     "colo": "NRT",
-    "latency_ms": 76.92,
-    "speed_mbps": 20.35,
-    "score": 111.75,
-    "stability": 500
+    "latency_ms": 71.84,
+    "speed_mbps": 32.43,
+    "score": 100.94,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 100.94,
+      "latency_score": 71.84,
+      "speed_penalty": -0.9,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "43.163.238.201:8443",
@@ -412,10 +740,20 @@
     "port": 8443,
     "country": "JP",
     "colo": "NRT",
-    "latency_ms": 77.13,
-    "speed_mbps": 19.59,
-    "score": 112.33,
-    "stability": 500
+    "latency_ms": 73.84,
+    "speed_mbps": 17.34,
+    "score": 110.17,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 110.17,
+      "latency_score": 73.84,
+      "speed_penalty": 6.33,
+      "speed_tier": "below_30mbps",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "43.164.191.65:8443",
@@ -423,21 +761,20 @@
     "port": 8443,
     "country": "KR",
     "colo": "ICN",
-    "latency_ms": 86.95,
-    "speed_mbps": 43.85,
-    "score": 112.57,
-    "stability": 500
-  },
-  {
-    "node": "43.155.221.27:8443",
-    "ip": "43.155.221.27",
-    "port": 8443,
-    "country": "KR",
-    "colo": "ICN",
-    "latency_ms": 84.57,
-    "speed_mbps": 29.76,
-    "score": 114.69,
-    "stability": 500
+    "latency_ms": 83.35,
+    "speed_mbps": 37.37,
+    "score": 110.81,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 110.81,
+      "latency_score": 83.35,
+      "speed_penalty": -2.54,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "52.141.39.15:443",
@@ -445,21 +782,20 @@
     "port": 443,
     "country": "KR",
     "colo": "",
-    "latency_ms": 102.84,
-    "speed_mbps": 132.81,
-    "score": 115.67,
-    "stability": 500
-  },
-  {
-    "node": "119.28.162.39:8443",
-    "ip": "119.28.162.39",
-    "port": 8443,
-    "country": "KR",
-    "colo": "ICN",
-    "latency_ms": 91.72,
-    "speed_mbps": 35.91,
-    "score": 119.64,
-    "stability": 500
+    "latency_ms": 99.8,
+    "speed_mbps": 144.83,
+    "score": 111.63,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 111.63,
+      "latency_score": 99.8,
+      "speed_penalty": -18.17,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "54.180.151.15:443",
@@ -467,10 +803,20 @@
     "port": 443,
     "country": "KR",
     "colo": "ICN",
-    "latency_ms": 107.65,
-    "speed_mbps": 141.37,
-    "score": 119.76,
-    "stability": 500
+    "latency_ms": 101.84,
+    "speed_mbps": 141.18,
+    "score": 113.96,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 113.96,
+      "latency_score": 101.84,
+      "speed_penalty": -17.88,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "66.42.51.60:8443",
@@ -478,21 +824,104 @@
     "port": 8443,
     "country": "SG",
     "colo": "SIN",
-    "latency_ms": 79.87,
-    "speed_mbps": 11.64,
-    "score": 119.95,
-    "stability": 500
+    "latency_ms": 78.15,
+    "speed_mbps": 11.59,
+    "score": 118.38,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 118.38,
+      "latency_score": 78.15,
+      "speed_penalty": 10.23,
+      "speed_tier": "below_15mbps",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "138.2.122.191:443",
     "ip": "138.2.122.191",
     "port": 443,
     "country": "KR",
+    "colo": "",
+    "latency_ms": 94.89,
+    "speed_mbps": 49.48,
+    "score": 119.12,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 119.12,
+      "latency_score": 94.89,
+      "speed_penalty": -5.78,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "43.155.221.27:8443",
+    "ip": "43.155.221.27",
+    "port": 8443,
+    "country": "KR",
     "colo": "ICN",
-    "latency_ms": 110.17,
-    "speed_mbps": 53.47,
-    "score": 133.5,
-    "stability": 500
+    "latency_ms": 88.5,
+    "speed_mbps": 28.34,
+    "score": 119.33,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 119.33,
+      "latency_score": 88.5,
+      "speed_penalty": 0.83,
+      "speed_tier": "below_30mbps",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "144.24.94.127:443",
+    "ip": "144.24.94.127",
+    "port": 443,
+    "country": "KR",
+    "colo": "ICN",
+    "latency_ms": 105.64,
+    "speed_mbps": 94.22,
+    "score": 122.43,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 122.43,
+      "latency_score": 105.64,
+      "speed_penalty": -13.21,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "8.222.185.236:443",
+    "ip": "8.222.185.236",
+    "port": 443,
+    "country": "SG",
+    "colo": "NRT",
+    "latency_ms": 133.67,
+    "speed_mbps": 434.02,
+    "score": 132.83,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 132.83,
+      "latency_score": 133.67,
+      "speed_penalty": -30.84,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "43.133.232.228:8443",
@@ -500,10 +929,167 @@
     "port": 8443,
     "country": "KR",
     "colo": "ICN",
-    "latency_ms": 116.71,
-    "speed_mbps": 41.15,
-    "score": 143.06,
-    "stability": 500
+    "latency_ms": 115.03,
+    "speed_mbps": 41.53,
+    "score": 141.28,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 141.28,
+      "latency_score": 115.03,
+      "speed_penalty": -3.75,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "144.24.68.111:443",
+    "ip": "144.24.68.111",
+    "port": 443,
+    "country": "KR",
+    "colo": "",
+    "latency_ms": 119.26,
+    "speed_mbps": 53.98,
+    "score": 142.48,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 142.48,
+      "latency_score": 119.26,
+      "speed_penalty": -6.78,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "134.185.88.235:8443",
+    "ip": "134.185.88.235",
+    "port": 8443,
+    "country": "SG",
+    "colo": "SIN",
+    "latency_ms": 134.73,
+    "speed_mbps": 102.73,
+    "score": 150.52,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 150.52,
+      "latency_score": 134.73,
+      "speed_penalty": -14.21,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "158.178.229.178:443",
+    "ip": "158.178.229.178",
+    "port": 443,
+    "country": "SG",
+    "colo": "",
+    "latency_ms": 130.38,
+    "speed_mbps": 32.71,
+    "score": 159.38,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 159.38,
+      "latency_score": 130.38,
+      "speed_penalty": -1.0,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "49.238.239.25:443",
+    "ip": "49.238.239.25",
+    "port": 443,
+    "country": "KR",
+    "colo": "",
+    "latency_ms": 152.88,
+    "speed_mbps": 109.89,
+    "score": 167.89,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 167.89,
+      "latency_score": 152.88,
+      "speed_penalty": -14.98,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "49.238.239.41:443",
+    "ip": "49.238.239.41",
+    "port": 443,
+    "country": "KR",
+    "colo": "",
+    "latency_ms": 153.56,
+    "speed_mbps": 104.98,
+    "score": 169.1,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 169.1,
+      "latency_score": 153.56,
+      "speed_penalty": -14.46,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "49.238.238.131:443",
+    "ip": "49.238.238.131",
+    "port": 443,
+    "country": "KR",
+    "colo": "",
+    "latency_ms": 154.95,
+    "speed_mbps": 103.69,
+    "score": 170.64,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 170.64,
+      "latency_score": 154.95,
+      "speed_penalty": -14.31,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "49.238.238.163:443",
+    "ip": "49.238.238.163",
+    "port": 443,
+    "country": "KR",
+    "colo": "",
+    "latency_ms": 155.83,
+    "speed_mbps": 100.74,
+    "score": 171.85,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 171.85,
+      "latency_score": 155.83,
+      "speed_penalty": -13.98,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "49.238.237.57:2053",
@@ -511,186 +1097,272 @@
     "port": 2053,
     "country": "KR",
     "colo": "LAX",
-    "latency_ms": 162.9,
-    "speed_mbps": 106.73,
-    "score": 178.25,
-    "stability": 500
+    "latency_ms": 159.96,
+    "speed_mbps": 105.07,
+    "score": 175.49,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 175.49,
+      "latency_score": 159.96,
+      "speed_penalty": -14.47,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "49.238.238.162:2087",
-    "ip": "49.238.238.162",
-    "port": 2087,
+    "node": "49.238.238.31:2096",
+    "ip": "49.238.238.31",
+    "port": 2096,
     "country": "KR",
     "colo": "LAX",
     "latency_ms": 163.21,
-    "speed_mbps": 105.94,
-    "score": 178.65,
-    "stability": 500
+    "speed_mbps": 104.05,
+    "score": 178.86,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 178.86,
+      "latency_score": 163.21,
+      "speed_penalty": -14.35,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "49.238.238.161:443",
+    "node": "49.238.238.161:8443",
     "ip": "49.238.238.161",
-    "port": 443,
+    "port": 8443,
     "country": "KR",
     "colo": "LAX",
-    "latency_ms": 163.95,
-    "speed_mbps": 107.89,
-    "score": 179.18,
-    "stability": 500
+    "latency_ms": 163.18,
+    "speed_mbps": 101.67,
+    "score": 179.09,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 179.09,
+      "latency_score": 163.18,
+      "speed_penalty": -14.09,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "49.238.238.149:443",
-    "ip": "49.238.238.149",
-    "port": 443,
+    "node": "49.238.237.232:2087",
+    "ip": "49.238.237.232",
+    "port": 2087,
     "country": "KR",
     "colo": "LAX",
-    "latency_ms": 164.26,
-    "speed_mbps": 105.36,
-    "score": 179.76,
-    "stability": 500
+    "latency_ms": 164.64,
+    "speed_mbps": 106.65,
+    "score": 180.0,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 180.0,
+      "latency_score": 164.64,
+      "speed_penalty": -14.64,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "49.238.238.161:2096",
-    "ip": "49.238.238.161",
-    "port": 2096,
-    "country": "KR",
-    "colo": "LAX",
-    "latency_ms": 168.42,
-    "speed_mbps": 107.01,
-    "score": 183.74,
-    "stability": 500
-  },
-  {
-    "node": "49.238.237.31:443",
-    "ip": "49.238.237.31",
-    "port": 443,
-    "country": "KR",
-    "colo": "LAX",
-    "latency_ms": 169.86,
-    "speed_mbps": 107.32,
-    "score": 185.15,
-    "stability": 500
-  },
-  {
-    "node": "49.238.236.37:2096",
-    "ip": "49.238.236.37",
-    "port": 2096,
-    "country": "KR",
-    "colo": "LAX",
-    "latency_ms": 172.76,
-    "speed_mbps": 107.21,
-    "score": 188.06,
-    "stability": 500
-  },
-  {
-    "node": "49.238.237.131:2053",
+    "node": "49.238.237.131:8443",
     "ip": "49.238.237.131",
-    "port": 2053,
+    "port": 8443,
     "country": "KR",
     "colo": "LAX",
-    "latency_ms": 173.62,
-    "speed_mbps": 107.38,
-    "score": 188.9,
-    "stability": 500
+    "latency_ms": 165.48,
+    "speed_mbps": 102.8,
+    "score": 181.27,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 181.27,
+      "latency_score": 165.48,
+      "speed_penalty": -14.21,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "49.238.236.31:2087",
-    "ip": "49.238.236.31",
-    "port": 2087,
-    "country": "KR",
-    "colo": "LAX",
-    "latency_ms": 174.07,
-    "speed_mbps": 107.62,
-    "score": 189.33,
-    "stability": 500
-  },
-  {
-    "node": "49.238.239.41:2087",
+    "node": "49.238.239.41:2083",
     "ip": "49.238.239.41",
-    "port": 2087,
-    "country": "KR",
-    "colo": "LAX",
-    "latency_ms": 174.33,
-    "speed_mbps": 104.26,
-    "score": 189.95,
-    "stability": 500
-  },
-  {
-    "node": "49.238.237.132:2083",
-    "ip": "49.238.237.132",
     "port": 2083,
     "country": "KR",
     "colo": "LAX",
-    "latency_ms": 174.71,
-    "speed_mbps": 107.62,
-    "score": 189.97,
-    "stability": 500
+    "latency_ms": 166.29,
+    "speed_mbps": 106.38,
+    "score": 181.68,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 181.68,
+      "latency_score": 166.29,
+      "speed_penalty": -14.61,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "49.238.239.25:2096",
-    "ip": "49.238.239.25",
+    "node": "49.238.236.30:2096",
+    "ip": "49.238.236.30",
     "port": 2096,
     "country": "KR",
     "colo": "LAX",
-    "latency_ms": 174.48,
-    "speed_mbps": 99.86,
-    "score": 190.6,
-    "stability": 500
+    "latency_ms": 169.28,
+    "speed_mbps": 106.99,
+    "score": 184.6,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 184.6,
+      "latency_score": 169.28,
+      "speed_penalty": -14.68,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "49.238.236.30:8443",
-    "ip": "49.238.236.30",
-    "port": 8443,
-    "country": "KR",
-    "colo": "LAX",
-    "latency_ms": 176.06,
-    "speed_mbps": 105.88,
-    "score": 191.5,
-    "stability": 500
-  },
-  {
-    "node": "49.238.239.41:2053",
-    "ip": "49.238.239.41",
-    "port": 2053,
-    "country": "KR",
-    "colo": "LAX",
-    "latency_ms": 177.77,
-    "speed_mbps": 110.04,
-    "score": 192.77,
-    "stability": 500
-  },
-  {
-    "node": "49.238.239.19:8443",
-    "ip": "49.238.239.19",
-    "port": 8443,
-    "country": "KR",
-    "colo": "LAX",
-    "latency_ms": 179.48,
-    "speed_mbps": 107.26,
-    "score": 194.78,
-    "stability": 500
-  },
-  {
-    "node": "49.238.236.33:2083",
+    "node": "49.238.236.33:2087",
     "ip": "49.238.236.33",
-    "port": 2083,
+    "port": 2087,
     "country": "KR",
     "colo": "LAX",
-    "latency_ms": 181.0,
-    "speed_mbps": 106.1,
-    "score": 196.42,
-    "stability": 500
+    "latency_ms": 170.14,
+    "speed_mbps": 105.68,
+    "score": 185.61,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 185.61,
+      "latency_score": 170.14,
+      "speed_penalty": -14.53,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "49.238.237.33:443",
+    "ip": "49.238.237.33",
+    "port": 443,
+    "country": "KR",
+    "colo": "LAX",
+    "latency_ms": 170.91,
+    "speed_mbps": 106.24,
+    "score": 186.32,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 186.32,
+      "latency_score": 170.91,
+      "speed_penalty": -14.59,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "49.238.236.39:2087",
+    "ip": "49.238.236.39",
+    "port": 2087,
+    "country": "KR",
+    "colo": "LAX",
+    "latency_ms": 172.24,
+    "speed_mbps": 108.76,
+    "score": 187.38,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 187.38,
+      "latency_score": 172.24,
+      "speed_penalty": -14.86,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "49.238.236.12:2096",
+    "ip": "49.238.236.12",
+    "port": 2096,
+    "country": "KR",
+    "colo": "LAX",
+    "latency_ms": 176.03,
+    "speed_mbps": 106.74,
+    "score": 191.38,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 191.38,
+      "latency_score": 176.03,
+      "speed_penalty": -14.65,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
+  },
+  {
+    "node": "49.238.239.25:2087",
+    "ip": "49.238.239.25",
+    "port": 2087,
+    "country": "KR",
+    "colo": "LAX",
+    "latency_ms": 177.79,
+    "speed_mbps": 108.46,
+    "score": 192.96,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 192.96,
+      "latency_score": 177.79,
+      "speed_penalty": -14.83,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "31.77.228.53:443",
     "ip": "31.77.228.53",
     "port": 443,
     "country": "KR",
-    "colo": "WAW",
-    "latency_ms": 201.96,
-    "speed_mbps": 27.04,
-    "score": 233.44,
-    "stability": 500
+    "colo": "",
+    "latency_ms": 227.44,
+    "speed_mbps": 27.59,
+    "score": 258.65,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 258.65,
+      "latency_score": 227.44,
+      "speed_penalty": 1.21,
+      "speed_tier": "below_30mbps",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "158.247.253.111:8443",
@@ -698,54 +1370,62 @@
     "port": 8443,
     "country": "KR",
     "colo": "ICN",
-    "latency_ms": 241.89,
-    "speed_mbps": 56.92,
-    "score": 264.5,
-    "stability": 500
+    "latency_ms": 239.04,
+    "speed_mbps": 55.72,
+    "score": 261.89,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 261.89,
+      "latency_score": 239.04,
+      "speed_penalty": -7.15,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
-    "node": "85.155.176.11:8443",
-    "ip": "85.155.176.11",
+    "node": "85.155.176.13:8443",
+    "ip": "85.155.176.13",
     "port": 8443,
     "country": "KR",
     "colo": "NRT",
-    "latency_ms": 280.63,
-    "speed_mbps": 51.38,
-    "score": 304.42,
-    "stability": 500
+    "latency_ms": 275.08,
+    "speed_mbps": 49.71,
+    "score": 299.25,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 299.25,
+      "latency_score": 275.08,
+      "speed_penalty": -5.83,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "188.253.6.209:443",
     "ip": "188.253.6.209",
     "port": 443,
     "country": "TW",
-    "colo": "",
-    "latency_ms": 298.54,
-    "speed_mbps": 41.55,
-    "score": 324.78,
-    "stability": 500
-  },
-  {
-    "node": "188.253.6.173:443",
-    "ip": "188.253.6.173",
-    "port": 443,
-    "country": "TW",
-    "colo": "",
-    "latency_ms": 308.09,
-    "speed_mbps": 37.94,
-    "score": 335.38,
-    "stability": 500
-  },
-  {
-    "node": "152.70.239.74:443",
-    "ip": "152.70.239.74",
-    "port": 443,
-    "country": "KR",
-    "colo": "",
-    "latency_ms": 308.05,
-    "speed_mbps": 22.59,
-    "score": 341.75,
-    "stability": 500
+    "colo": "TPE",
+    "latency_ms": 300.4,
+    "speed_mbps": 40.88,
+    "score": 326.83,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 326.83,
+      "latency_score": 300.4,
+      "speed_penalty": -3.57,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   },
   {
     "node": "82.152.91.210:443",
@@ -753,42 +1433,19 @@
     "port": 443,
     "country": "TW",
     "colo": "",
-    "latency_ms": 307.32,
-    "speed_mbps": 12.14,
-    "score": 345.9,
-    "stability": 500
-  },
-  {
-    "node": "152.70.232.72:443",
-    "ip": "152.70.232.72",
-    "port": 443,
-    "country": "KR",
-    "colo": "ICN",
-    "latency_ms": 318.05,
-    "speed_mbps": 21.36,
-    "score": 352.37,
-    "stability": 500
-  },
-  {
-    "node": "64.110.75.145:443",
-    "ip": "64.110.75.145",
-    "port": 443,
-    "country": "KR",
-    "colo": "",
-    "latency_ms": 319.73,
-    "speed_mbps": 22.93,
-    "score": 353.26,
-    "stability": 500
-  },
-  {
-    "node": "188.253.6.136:443",
-    "ip": "188.253.6.136",
-    "port": 443,
-    "country": "TW",
-    "colo": "",
-    "latency_ms": 325.82,
-    "speed_mbps": 36.33,
-    "score": 353.61,
-    "stability": 500
+    "latency_ms": 299.1,
+    "speed_mbps": 25.49,
+    "score": 331.35,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 331.35,
+      "latency_score": 299.1,
+      "speed_penalty": 2.26,
+      "speed_tier": "below_30mbps",
+      "stability_raw": 500,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "formula": "latency_ms + speed_penalty + min(history_stability,100)*0.3; lower is better"
+    }
   }
 ]
