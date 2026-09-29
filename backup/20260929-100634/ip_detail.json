@@ -1,0 +1,46 @@
+[
+  {
+    "node": "43.175.131.30:443",
+    "ip": "43.175.131.30",
+    "port": 443,
+    "country": "HK",
+    "colo": "HKG",
+    "latency_ms": 27.87,
+    "speed_mbps": 1078.9,
+    "score": 5.37,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 5.37,
+      "latency_score": 8.44,
+      "speed_penalty": -33.08,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500.0,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "latency_bonus": -25.0,
+      "formula": "latency_ms*w + latency_bonus + speed_penalty*w + stability*w; lower=better; latency<50ms rewarded, >120ms penalized"
+    }
+  },
+  {
+    "node": "103.61.39.111:443",
+    "ip": "103.61.39.111",
+    "port": 443,
+    "country": "HK",
+    "colo": "",
+    "latency_ms": 23.39,
+    "speed_mbps": 30.08,
+    "score": 33.04,
+    "stability": 500,
+    "score_explanation": {
+      "score_total": 33.04,
+      "latency_score": 3.07,
+      "speed_penalty": -0.02,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 500.0,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "latency_bonus": -25.0,
+      "formula": "latency_ms*w + latency_bonus + speed_penalty*w + stability*w; lower=better; latency<50ms rewarded, >120ms penalized"
+    }
+  }
+]
