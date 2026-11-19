@@ -1,0 +1,98 @@
+[
+  {
+    "node": "103.61.39.111:443",
+    "ip": "103.61.39.111",
+    "port": 443,
+    "country": "HK",
+    "colo": "",
+    "latency_ms": 20.25,
+    "speed_mbps": 120.56,
+    "score": -5.63,
+    "stability": 77.9,
+    "score_explanation": {
+      "score_total": -5.63,
+      "latency_score": -5.7,
+      "speed_penalty": -23.3,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 77.9,
+      "stability_penalty": 77.9,
+      "stability_weighted": 23.37,
+      "latency_bonus": -30.0,
+      "jitter_raw": 6.08,
+      "jitter_penalty": 0.0,
+      "formula": "latency_ms*w + latency_bonus + speed_penalty*w + stability*w + jitter_penalty; lower=better"
+    }
+  },
+  {
+    "node": "114.34.145.183:443",
+    "ip": "114.34.145.183",
+    "port": 443,
+    "country": "TW",
+    "colo": "",
+    "latency_ms": 46.03,
+    "speed_mbps": 195.73,
+    "score": 32.33,
+    "stability": 147.17,
+    "score_explanation": {
+      "score_total": 32.33,
+      "latency_score": 37.24,
+      "speed_penalty": -34.91,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 147.17,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "latency_bonus": -18.0,
+      "jitter_raw": 7.7,
+      "jitter_penalty": 0.0,
+      "formula": "latency_ms*w + latency_bonus + speed_penalty*w + stability*w + jitter_penalty; lower=better"
+    }
+  },
+  {
+    "node": "38.55.99.225:443",
+    "ip": "38.55.99.225",
+    "port": 443,
+    "country": "HK",
+    "colo": "",
+    "latency_ms": 49.66,
+    "speed_mbps": 114.36,
+    "score": 34.79,
+    "stability": 67.98,
+    "score_explanation": {
+      "score_total": 34.79,
+      "latency_score": 41.59,
+      "speed_penalty": -22.19,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 67.98,
+      "stability_penalty": 67.98,
+      "stability_weighted": 20.4,
+      "latency_bonus": -18.0,
+      "jitter_raw": 1.14,
+      "jitter_penalty": -5.0,
+      "formula": "latency_ms*w + latency_bonus + speed_penalty*w + stability*w + jitter_penalty; lower=better"
+    }
+  },
+  {
+    "node": "35.194.109.94:443",
+    "ip": "35.194.109.94",
+    "port": 443,
+    "country": "JP",
+    "colo": "",
+    "latency_ms": 182.54,
+    "speed_mbps": 47.82,
+    "score": 387.24,
+    "stability": 147.37,
+    "score_explanation": {
+      "score_total": 387.24,
+      "latency_score": 369.05,
+      "speed_penalty": -6.81,
+      "speed_tier": "above_30mbps_reward",
+      "stability_raw": 147.37,
+      "stability_penalty": 100,
+      "stability_weighted": 30.0,
+      "latency_bonus": 150.0,
+      "jitter_raw": 0.64,
+      "jitter_penalty": -5.0,
+      "formula": "latency_ms*w + latency_bonus + speed_penalty*w + stability*w + jitter_penalty; lower=better"
+    }
+  }
+]
